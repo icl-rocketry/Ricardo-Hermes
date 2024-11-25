@@ -2981,7 +2981,7 @@
 			(uuid "6905ffa6-63e3-40dc-8c12-6e665c7af883")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.27 360)
+			(at 0 1.27 0)
 			(layer "F.Fab")
 			(uuid "d1a88ab8-d0a1-4afb-8dba-1b8706484e5b")
 			(effects
@@ -20561,7 +20561,7 @@
 		(descr "Molex Nano-Fit Power Connectors, 105313-xx03, 3 Pins per row (http://www.molex.com/pdm_docs/sd/1053131208_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex Nano-Fit top entry")
 		(property "Reference" "UART1"
-			(at 1.5666 -3.0372 360)
+			(at 1.5666 -3.0372 0)
 			(layer "F.SilkS")
 			(uuid "c61b3bec-2858-4559-87c2-e16dd2d5c491")
 			(effects
@@ -20572,7 +20572,7 @@
 			)
 		)
 		(property "Value" "UART"
-			(at 6.15 7.92 360)
+			(at 6.15 7.92 0)
 			(layer "F.Fab")
 			(uuid "092d2bc0-9a8b-4c12-be62-015ad302efc1")
 			(effects
@@ -20927,7 +20927,7 @@
 			(uuid "325e47ad-f3c1-41bc-9c2e-c12a8e2758d0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 6.15 6.02 360)
+			(at 6.15 6.02 0)
 			(layer "F.Fab")
 			(uuid "0560042b-79cf-4cd1-bdfe-1d2593b60e08")
 			(effects
