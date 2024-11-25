@@ -3683,6 +3683,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 34.29) (xy 73.66 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50e4350a-3c33-4bf4-a4a0-728c146cd968")
+	)
+	(wire
+		(pts
 			(xy 156.21 127) (xy 156.21 128.27)
 		)
 		(stroke
@@ -4233,6 +4243,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 34.29) (xy 87.63 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed8d2dce-e872-4cf3-bdaa-2f47a138ef84")
+	)
+	(wire
+		(pts
 			(xy 27.94 30.48) (xy 30.48 30.48)
 		)
 		(stroke
@@ -4427,7 +4447,7 @@
 		(uuid "26dbf329-a496-4f56-b8c1-4fdb94c45eca")
 	)
 	(label "RXD"
-		(at 90.17 36.83 0)
+		(at 73.66 36.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4471,7 +4491,7 @@
 		)
 	)
 	(label "TXD"
-		(at 90.17 39.37 0)
+		(at 73.66 39.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7581,7 +7601,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 90.17 34.29 0)
+		(at 99.06 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7589,7 +7609,7 @@
 		(dnp no)
 		(uuid "781a0004-de46-484e-8fe5-3615312704dd")
 		(property "Reference" "#PWR052"
-			(at 90.17 38.1 0)
+			(at 99.06 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7598,7 +7618,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 90.551 29.8958 0)
+			(at 99.441 29.8958 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7606,7 +7626,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 34.29 0)
+			(at 99.06 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7615,7 +7635,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 34.29 0)
+			(at 99.06 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7624,7 +7644,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.17 34.29 0)
+			(at 99.06 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7711,7 +7731,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 85.09 39.37 180)
+		(at 68.58 39.37 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7720,7 +7740,7 @@
 		(fields_autoplaced yes)
 		(uuid "9581d941-0677-4582-8d74-a25bc4e39117")
 		(property "Reference" "UART1"
-			(at 85.09 27.94 0)
+			(at 68.58 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7728,15 +7748,15 @@
 			)
 		)
 		(property "Value" "UART"
-			(at 85.09 30.48 0)
+			(at 68.58 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical"
-			(at 85.09 39.37 0)
+		(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105309-xx04_1x04_P2.50mm_Vertical"
+			(at 68.58 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7745,7 +7765,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 39.37 0)
+			(at 68.58 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7754,7 +7774,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 85.09 39.37 0)
+			(at 68.58 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8186,7 +8206,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 90.17 41.91 0)
+		(at 73.66 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8194,7 +8214,7 @@
 		(dnp no)
 		(uuid "b057a5fc-8c5e-47a8-9422-017f6ea2c2c1")
 		(property "Reference" "#PWR053"
-			(at 90.17 48.26 0)
+			(at 73.66 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8203,7 +8223,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 93.98 44.45 0)
+			(at 77.47 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8211,7 +8231,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 41.91 0)
+			(at 73.66 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8220,7 +8240,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 41.91 0)
+			(at 73.66 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8229,7 +8249,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.17 41.91 0)
+			(at 73.66 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9146,6 +9166,75 @@
 			(project "RicardoTemplate"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Male")
+		(at 87.63 29.21 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3f6d994-bfc2-4fb5-b2db-ae87ba18ad1b")
+		(property "Reference" "POWER_UART1"
+			(at 78.74 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Male"
+			(at 78.74 26.4414 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 87.63 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8a5511f-b3a9-4995-b2ba-438a674a9675")
+		)
+		(pin "2"
+			(uuid "0a390e0a-73ca-47c3-8e64-b5525fd44878")
+		)
+		(instances
+			(project "RicardoTemplate"
+				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83"
+					(reference "POWER_UART1")
 					(unit 1)
 				)
 			)
