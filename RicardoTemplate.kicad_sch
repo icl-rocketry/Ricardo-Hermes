@@ -3483,6 +3483,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 90.17) (xy 149.86 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25d8a560-9147-45b5-a3b6-306a9c87e143")
+	)
+	(wire
+		(pts
 			(xy 29.21 135.89) (xy 34.29 135.89)
 		)
 		(stroke
@@ -3500,6 +3510,16 @@
 			(type default)
 		)
 		(uuid "2bc36d38-3db9-45ef-a5ec-5af897552a06")
+	)
+	(wire
+		(pts
+			(xy 144.78 87.63) (xy 135.89 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d02bc97-44ff-48bd-a067-bf76aa849166")
 	)
 	(wire
 		(pts
@@ -3530,6 +3550,16 @@
 			(type default)
 		)
 		(uuid "318cdbda-f2fe-4337-9b97-a693e6cb6f11")
+	)
+	(wire
+		(pts
+			(xy 160.02 85.09) (xy 149.86 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "344b849d-c21c-465b-9394-532f1e197a76")
 	)
 	(wire
 		(pts
@@ -3720,6 +3750,16 @@
 			(type default)
 		)
 		(uuid "5be38e16-38c6-4713-8c39-bc5c7a059ab3")
+	)
+	(wire
+		(pts
+			(xy 144.78 92.71) (xy 135.89 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d604a33-d6a3-4b17-bd63-de60698197a0")
 	)
 	(polyline
 		(pts
@@ -3943,6 +3983,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 90.17) (xy 135.89 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "953927fe-6f2e-49fb-ab6f-88bd9407ca59")
+	)
+	(wire
+		(pts
 			(xy 55.88 165.1) (xy 63.5 165.1)
 		)
 		(stroke
@@ -4063,6 +4113,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 92.71) (xy 149.86 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b69f7b10-9530-4ec2-83a2-c4020af963dc")
+	)
+	(wire
+		(pts
 			(xy 53.34 191.77) (xy 45.72 191.77)
 		)
 		(stroke
@@ -4070,6 +4130,16 @@
 			(type default)
 		)
 		(uuid "be41ac9e-b8ba-4089-983b-b84269707f1c")
+	)
+	(wire
+		(pts
+			(xy 144.78 85.09) (xy 135.89 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4929189-0f13-4e7d-9373-9faee7bdf9e0")
 	)
 	(wire
 		(pts
@@ -4180,6 +4250,16 @@
 			(type default)
 		)
 		(uuid "dd493282-399a-404f-9dd5-f2b81f9a0a7d")
+	)
+	(wire
+		(pts
+			(xy 160.02 87.63) (xy 149.86 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e044bb30-c253-4d6a-8212-4aa844cac3f8")
 	)
 	(wire
 		(pts
@@ -4745,7 +4825,7 @@
 	)
 	(global_label "SCK"
 		(shape input)
-		(at 135.89 87.63 0)
+		(at 160.02 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4755,7 +4835,7 @@
 		)
 		(uuid "000b4868-27ea-4380-97d7-8fdef55bd116")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.9705 87.63 0)
+			(at 166.1005 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4899,7 +4979,7 @@
 	)
 	(global_label "MOSI"
 		(shape input)
-		(at 135.89 90.17 0)
+		(at 160.02 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4909,7 +4989,7 @@
 		)
 		(uuid "91b56a1d-83bc-4d54-8bf4-d67ae6ac6b9a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.8172 90.17 0)
+			(at 166.9472 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4965,7 +5045,7 @@
 	)
 	(global_label "MISO"
 		(shape input)
-		(at 135.89 92.71 0)
+		(at 160.02 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4975,7 +5055,7 @@
 		)
 		(uuid "bf5b3586-849a-4946-8fe6-180cd2c8d814")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.8172 92.71 0)
+			(at 166.9472 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4987,7 +5067,7 @@
 	)
 	(global_label "CS"
 		(shape input)
-		(at 135.89 85.09 0)
+		(at 160.02 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4997,7 +5077,7 @@
 		)
 		(uuid "c9ad30ae-75eb-4fb6-99ae-24d0be41c1c7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.7005 85.09 0)
+			(at 164.8305 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6861,6 +6941,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 147.32 90.17 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d93a7bd-63e2-478d-851b-0f8c3ea29016")
+		(property "Reference" "R29"
+			(at 143.51 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20-100"
+			(at 153.67 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 147.32 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cab7c7cb-6f51-4c6a-b21d-99c3d597a147")
+		)
+		(pin "2"
+			(uuid "9dd84832-7e1c-4777-9d22-0e249fbe0910")
+		)
+		(instances
+			(project "RicardoTemplate"
+				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 50.8 129.54 0)
 		(unit 1)
@@ -7730,6 +7877,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 147.32 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ed2e956-68a1-4a95-b3a4-669edbbd547c")
+		(property "Reference" "R25"
+			(at 143.51 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20-100"
+			(at 153.67 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 147.32 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4064b5f9-5400-4799-87c0-e5bb328f3650")
+		)
+		(pin "2"
+			(uuid "dd5ae5a1-59a6-435c-bfb2-fdd74123cbee")
+		)
+		(instances
+			(project "RicardoTemplate"
+				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 68.58 39.37 180)
 		(unit 1)
@@ -7998,6 +8212,140 @@
 			(project "RicardoTemplate"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 147.32 87.63 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1273ebb-1b82-4d0e-919e-c5f20c324868")
+		(property "Reference" "R26"
+			(at 143.51 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20-100"
+			(at 153.67 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 147.32 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6814f79b-ce1f-4344-8c36-8b1387df82de")
+		)
+		(pin "2"
+			(uuid "f9a9237b-1b44-4d0b-9479-2eddded0ebcd")
+		)
+		(instances
+			(project "RicardoTemplate"
+				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 147.32 92.71 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a17a4f0f-d560-4041-a563-12dd0aabdca2")
+		(property "Reference" "R30"
+			(at 143.51 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20-100"
+			(at 153.67 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 147.32 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a4a29db-1df0-4f02-8cd8-3e1e8b8c4910")
+		)
+		(pin "2"
+			(uuid "c2c347ce-2863-4d68-8a62-42b0ceab84af")
+		)
+		(instances
+			(project "RicardoTemplate"
+				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83"
+					(reference "R30")
 					(unit 1)
 				)
 			)
