@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 31,
+    "active_layer": 33,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -63,7 +63,7 @@
       35,
       36
     ],
-    "visible_layers": "ffff9c0_ffffffff",
+    "visible_layers": "ffff9e0_ffffffff",
     "zone_display_mode": 1
   },
   "git": {
@@ -73,7 +73,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "RicardoTemplate.kicad_prl",
+    "filename": "Ricardo-Hermes.kicad_prl",
     "version": 3
   },
   "project": {
