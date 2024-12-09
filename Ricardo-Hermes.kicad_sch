@@ -4537,7 +4537,7 @@
 		)
 	)
 	(label "TXD"
-		(at 78.74 34.29 0)
+		(at 163.83 170.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4548,7 +4548,7 @@
 		(uuid "41e28c9a-e39c-4fd4-b567-d4baa5a74620")
 	)
 	(label "RXD"
-		(at 78.74 31.75 0)
+		(at 163.83 167.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4901,6 +4901,50 @@
 		(uuid "5f7c34ec-fd5b-4b28-827e-06e9f2ba6896")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 63.1042 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DIO3"
+		(shape input)
+		(at 69.85 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "78d327c1-b41f-4839-9019-37458f9ead48")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.1042 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DIO2"
+		(shape input)
+		(at 69.85 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7ea202e4-eddb-4488-ac29-488d5e01878e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.1042 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8588,7 +8632,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 78.74 36.83 0)
+		(at 163.83 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8596,7 +8640,7 @@
 		(dnp no)
 		(uuid "c24eed3a-a518-4a1f-b310-df16671bd7f8")
 		(property "Reference" "#PWR058"
-			(at 78.74 43.18 0)
+			(at 163.83 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8605,7 +8649,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 82.55 39.37 0)
+			(at 167.64 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8613,7 +8657,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 36.83 0)
+			(at 163.83 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8622,7 +8666,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 36.83 0)
+			(at 163.83 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8631,7 +8675,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 78.74 36.83 0)
+			(at 163.83 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9424,7 +9468,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 73.66 34.29 180)
+		(at 158.75 170.18 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9433,7 +9477,7 @@
 		(fields_autoplaced yes)
 		(uuid "f2052e13-d940-43ba-8d39-791cad31de93")
 		(property "Reference" "UART1"
-			(at 73.66 25.4 0)
+			(at 158.75 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9441,7 +9485,7 @@
 			)
 		)
 		(property "Value" "UART"
-			(at 73.66 27.94 0)
+			(at 158.75 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9449,7 +9493,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105313-xx03_1x03_P2.50mm_Horizontal"
-			(at 73.66 34.29 0)
+			(at 158.75 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9458,7 +9502,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 34.29 0)
+			(at 158.75 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9467,7 +9511,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 73.66 34.29 0)
+			(at 158.75 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
