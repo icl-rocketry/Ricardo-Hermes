@@ -194,7 +194,8 @@
         0.2,
         0.3,
         0.349,
-        0.4
+        0.4,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -477,7 +478,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "RicardoTemplate.kicad_pro",
+    "filename": "Ricardo-Hermes.kicad_pro",
     "version": 1
   },
   "net_settings": {
