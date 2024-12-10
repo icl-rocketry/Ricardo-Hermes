@@ -4912,7 +4912,7 @@
 	)
 	(global_label "DIO3"
 		(shape input)
-		(at 69.85 80.01 180)
+		(at 69.85 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4922,7 +4922,7 @@
 		)
 		(uuid "78d327c1-b41f-4839-9019-37458f9ead48")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.1042 80.01 0)
+			(at 63.1042 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4934,7 +4934,7 @@
 	)
 	(global_label "DIO2"
 		(shape input)
-		(at 69.85 82.55 180)
+		(at 69.85 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4944,7 +4944,7 @@
 		)
 		(uuid "7ea202e4-eddb-4488-ac29-488d5e01878e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.1042 82.55 0)
+			(at 63.1042 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)

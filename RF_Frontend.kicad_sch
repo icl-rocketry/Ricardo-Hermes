@@ -9023,7 +9023,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5cbfbb82-9409-41f8-8e62-9739ab1f36e4")
-		(property "Reference" "TXLED3"
+		(property "Reference" "RXD_1"
 			(at 107.95 143.637 0)
 			(effects
 				(font
@@ -9075,7 +9075,7 @@
 		(instances
 			(project "Ricardo-Hermes"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/ecfc1314-a0cb-4bac-a35c-d2175f1c7197"
-					(reference "TXLED3")
+					(reference "RXD_1")
 					(unit 1)
 				)
 			)
@@ -11854,7 +11854,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cdff66e7-bcc1-4843-9671-db63a30896f6")
-		(property "Reference" "TXLED4"
+		(property "Reference" "DIO3_D1"
 			(at 107.95 153.797 0)
 			(effects
 				(font
@@ -11906,7 +11906,7 @@
 		(instances
 			(project "Ricardo-Hermes"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/ecfc1314-a0cb-4bac-a35c-d2175f1c7197"
-					(reference "TXLED4")
+					(reference "DIO3_D1")
 					(unit 1)
 				)
 			)
@@ -13020,7 +13020,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f3f166e7-4122-46ef-93cc-fa942dc95427")
-		(property "Reference" "TXLED2"
+		(property "Reference" "TXD_1"
 			(at 107.95 133.477 0)
 			(effects
 				(font
@@ -13072,7 +13072,7 @@
 		(instances
 			(project "Ricardo-Hermes"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/ecfc1314-a0cb-4bac-a35c-d2175f1c7197"
-					(reference "TXLED2")
+					(reference "TXD_1")
 					(unit 1)
 				)
 			)
