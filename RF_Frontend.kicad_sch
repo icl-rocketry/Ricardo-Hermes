@@ -6590,7 +6590,7 @@
 	)
 	(global_label "CHL"
 		(shape input)
-		(at 68.58 138.43 0)
+		(at 68.58 144.78 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6600,7 +6600,7 @@
 		)
 		(uuid "eb7d4bf4-a829-48d1-aa5e-2e8ec5d9699c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.5396 138.43 0)
+			(at 74.5396 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6656,7 +6656,7 @@
 	)
 	(global_label "CTX"
 		(shape input)
-		(at 68.58 144.78 0)
+		(at 68.58 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6666,7 +6666,7 @@
 		)
 		(uuid "f73cc81a-205d-479e-b9d9-7ca1993263b5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.3581 144.78 0)
+			(at 74.3581 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)

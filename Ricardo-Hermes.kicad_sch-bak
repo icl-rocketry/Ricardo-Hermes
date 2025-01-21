@@ -3490,6 +3490,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 87.63) (xy 135.89 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d02bc97-44ff-48bd-a067-bf76aa849166")
+	)
+	(wire
+		(pts
 			(xy 59.69 110.49) (xy 69.85 110.49)
 		)
 		(stroke
@@ -3707,6 +3717,16 @@
 			(type default)
 		)
 		(uuid "5be38e16-38c6-4713-8c39-bc5c7a059ab3")
+	)
+	(wire
+		(pts
+			(xy 144.78 92.71) (xy 135.89 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d604a33-d6a3-4b17-bd63-de60698197a0")
 	)
 	(polyline
 		(pts
@@ -3960,6 +3980,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 90.17) (xy 135.89 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "953927fe-6f2e-49fb-ab6f-88bd9407ca59")
+	)
+	(wire
+		(pts
 			(xy 55.88 165.1) (xy 63.5 165.1)
 		)
 		(stroke
@@ -4117,6 +4147,16 @@
 			(type default)
 		)
 		(uuid "be41ac9e-b8ba-4089-983b-b84269707f1c")
+	)
+	(wire
+		(pts
+			(xy 144.78 85.09) (xy 135.89 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4929189-0f13-4e7d-9373-9faee7bdf9e0")
 	)
 	(wire
 		(pts
@@ -4835,7 +4875,7 @@
 	)
 	(global_label "SX_BUSY"
 		(shape input)
-		(at 69.85 95.25 180)
+		(at 69.85 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4845,7 +4885,7 @@
 		)
 		(uuid "278029f0-62e7-4dc7-88c4-97517b15a2ba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.2338 95.25 0)
+			(at 59.2338 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4879,7 +4919,7 @@
 	)
 	(global_label "DIO1"
 		(shape input)
-		(at 69.85 92.71 180)
+		(at 69.85 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4889,7 +4929,7 @@
 		)
 		(uuid "5f7c34ec-fd5b-4b28-827e-06e9f2ba6896")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.1042 92.71 0)
+			(at 63.1042 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4901,7 +4941,7 @@
 	)
 	(global_label "DIO3"
 		(shape input)
-		(at 69.85 87.63 180)
+		(at 69.85 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4911,7 +4951,7 @@
 		)
 		(uuid "78d327c1-b41f-4839-9019-37458f9ead48")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.1042 87.63 0)
+			(at 63.1042 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4923,7 +4963,7 @@
 	)
 	(global_label "DIO2"
 		(shape input)
-		(at 69.85 90.17 180)
+		(at 69.85 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4933,7 +4973,7 @@
 		)
 		(uuid "7ea202e4-eddb-4488-ac29-488d5e01878e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.1042 90.17 0)
+			(at 63.1042 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9806,7 +9846,7 @@
 		)
 	)
 	(sheet
-		(at 17.78 107.95)
+		(at 6.35 107.95)
 		(size 22.86 7.62)
 		(fields_autoplaced yes)
 		(stroke
@@ -9818,7 +9858,7 @@
 		)
 		(uuid "48a413b4-b7c2-44ac-971c-583c31b73475")
 		(property "Sheetname" "Power"
-			(at 17.78 107.2384 0)
+			(at 6.35 107.2384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9827,7 +9867,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 17.78 116.1546 0)
+			(at 6.35 116.1546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
