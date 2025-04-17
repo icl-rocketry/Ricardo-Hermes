@@ -7393,8 +7393,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a93ceda-ef3c-4e15-8408-6e2d8ac916ee")
-		(property "Reference" "ANT2"
-			(at 255.27 133.6431 0)
+		(property "Reference" "ANT_UFL1"
+			(at 255.2701 133.701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7403,7 +7403,7 @@
 			)
 		)
 		(property "Value" "u.FL"
-			(at 255.27 136.1831 0)
+			(at 255.2701 136.1253 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7447,7 +7447,7 @@
 		(instances
 			(project "Ricardo-Hermes"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/ecfc1314-a0cb-4bac-a35c-d2175f1c7197"
-					(reference "ANT2")
+					(reference "ANT_UFL1")
 					(unit 1)
 				)
 			)
@@ -7463,7 +7463,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c335422-0ff4-41ce-a31e-230fa2383102")
-		(property "Reference" "ANT1"
+		(property "Reference" "ANT_SMA1"
 			(at 255.27 150.8369 0)
 			(effects
 				(font
@@ -7517,7 +7517,7 @@
 		(instances
 			(project "RicardoTemplate"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/ecfc1314-a0cb-4bac-a35c-d2175f1c7197"
-					(reference "ANT1")
+					(reference "ANT_SMA1")
 					(unit 1)
 				)
 			)
@@ -7683,7 +7683,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 102.87 76.2 0)
 			(effects
 				(font
@@ -8285,7 +8285,7 @@
 				)
 			)
 		)
-		(property "Value" "20-100"
+		(property "Value" "50"
 			(at 111.76 54.61 90)
 			(effects
 				(font
@@ -8884,7 +8884,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5cbfbb82-9409-41f8-8e62-9739ab1f36e4")
-		(property "Reference" "RXD_1"
+		(property "Reference" "RXD_1_R1"
 			(at 73.66 136.017 0)
 			(effects
 				(font
@@ -8892,7 +8892,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN_LED"
+		(property "Value" "ORANGE_LED"
 			(at 73.66 133.7056 0)
 			(effects
 				(font
@@ -8900,7 +8900,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
 			(at 73.66 130.81 90)
 			(effects
 				(font
@@ -8936,7 +8936,7 @@
 		(instances
 			(project "Ricardo-Hermes"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/ecfc1314-a0cb-4bac-a35c-d2175f1c7197"
-					(reference "RXD_1")
+					(reference "RXD_1_R1")
 					(unit 1)
 				)
 			)
@@ -10706,7 +10706,7 @@
 				)
 			)
 		)
-		(property "Value" "Crystal_GND24"
+		(property "Value" "Crystal_GND24_52_MHZ"
 			(at 45.72 70.104 90)
 			(effects
 				(font
@@ -10845,7 +10845,7 @@
 				)
 			)
 		)
-		(property "Value" "20-100"
+		(property "Value" "50"
 			(at 111.76 52.07 90)
 			(effects
 				(font
@@ -10904,8 +10904,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a74cb13b-3e46-4ac5-8d76-bd15257aabed")
-		(property "Reference" "R35"
-			(at 91.948 88.9 90)
+		(property "Reference" "VCC_SX1"
+			(at 93.726 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10958,7 +10958,7 @@
 		(instances
 			(project "Ricardo-Hermes"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/ecfc1314-a0cb-4bac-a35c-d2175f1c7197"
-					(reference "R35")
+					(reference "VCC_SX1")
 					(unit 1)
 				)
 			)
@@ -11660,7 +11660,7 @@
 				)
 			)
 		)
-		(property "Value" "20-100"
+		(property "Value" "50"
 			(at 111.76 46.99 90)
 			(effects
 				(font
@@ -11793,7 +11793,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN_LED"
+		(property "Value" "BLUE_LED"
 			(at 73.66 143.8656 0)
 			(effects
 				(font
@@ -11801,7 +11801,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
 			(at 73.66 140.97 90)
 			(effects
 				(font
@@ -11993,7 +11993,7 @@
 				)
 			)
 		)
-		(property "Value" "20-100"
+		(property "Value" "50"
 			(at 111.76 49.53 90)
 			(effects
 				(font
@@ -12694,15 +12694,15 @@
 		(fields_autoplaced yes)
 		(uuid "ec099bd6-0c26-4095-bea5-af7713572c88")
 		(property "Reference" "L7"
-			(at 170.18 52.07 90)
+			(at 170.18 52.5002 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "DET_LATER"
-			(at 170.18 54.61 90)
+		(property "Value" "3.0 nH"
+			(at 170.18 54.9245 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13159,7 +13159,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f3f166e7-4122-46ef-93cc-fa942dc95427")
-		(property "Reference" "TXD_1"
+		(property "Reference" "TXD_1_R1"
 			(at 73.66 125.857 0)
 			(effects
 				(font
@@ -13175,7 +13175,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
 			(at 73.66 120.65 90)
 			(effects
 				(font
@@ -13211,7 +13211,7 @@
 		(instances
 			(project "Ricardo-Hermes"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83/ecfc1314-a0cb-4bac-a35c-d2175f1c7197"
-					(reference "TXD_1")
+					(reference "TXD_1_R1")
 					(unit 1)
 				)
 			)

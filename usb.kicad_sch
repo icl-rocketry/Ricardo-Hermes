@@ -2960,7 +2960,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
 			(at 203.2 88.9 90)
 			(effects
 				(font
