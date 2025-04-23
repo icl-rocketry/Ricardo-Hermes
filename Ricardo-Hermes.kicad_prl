@@ -44,7 +44,11 @@
       "zones",
       "shapes"
     ],
+<<<<<<< Updated upstream
     "visible_layers": "00000000_00000000_0ffdf9e2_ffff55ff",
+=======
+    "visible_layers": "00000000_00000000_0ffdf9e2_ffffff7f",
+>>>>>>> Stashed changes
     "zone_display_mode": 1
   },
   "git": {
