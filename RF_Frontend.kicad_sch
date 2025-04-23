@@ -7333,7 +7333,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "15pF"
 			(at 30.48 59.69 90)
 			(effects
 				(font
@@ -8959,7 +8959,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "15pF"
 			(at 30.48 67.31 90)
 			(effects
 				(font
@@ -9568,7 +9568,7 @@
 				)
 			)
 		)
-		(property "Value" "0.5 pF"
+		(property "Value" "2.5nH"
 			(at 191.77 52.578 90)
 			(effects
 				(font
@@ -10706,7 +10706,7 @@
 				)
 			)
 		)
-		(property "Value" "Crystal_GND24_52_MHZ"
+		(property "Value" "C3034316"
 			(at 45.72 70.104 90)
 			(effects
 				(font
@@ -11118,7 +11118,7 @@
 				)
 			)
 		)
-		(property "Value" "FB"
+		(property "Value" "C3011209"
 			(at 271.7419 20.32 90)
 			(effects
 				(font
