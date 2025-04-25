@@ -7227,7 +7227,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "25d9d118-fb0e-45b0-825c-ae89b647a30f")
-		(property "Reference" "CRXLED2"
+		(property "Reference" "ESP_TX_LED1"
 			(at 25.4 45.847 0)
 			(effects
 				(font
@@ -7235,7 +7235,7 @@
 				)
 			)
 		)
-		(property "Value" "ORANGE_LED"
+		(property "Value" "GREEN_LED"
 			(at 25.4 43.5356 0)
 			(effects
 				(font
@@ -7279,7 +7279,7 @@
 		(instances
 			(project "Ricardo-Hermes"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83"
-					(reference "CRXLED2")
+					(reference "ESP_TX_LED1")
 					(unit 1)
 				)
 			)
@@ -7760,7 +7760,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4e90e71b-8b18-4a0f-85fd-d032047c797e")
-		(property "Reference" "TXLED2"
+		(property "Reference" "RXLED2"
 			(at 25.4 35.687 0)
 			(effects
 				(font
@@ -7768,7 +7768,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN_LED"
+		(property "Value" "ORANGE_LED"
 			(at 25.4 33.3756 0)
 			(effects
 				(font
@@ -7812,7 +7812,7 @@
 		(instances
 			(project "Ricardo-Hermes"
 				(path "/7db990e4-92e1-4f99-b4d2-435bbec1ba83"
-					(reference "TXLED2")
+					(reference "RXLED2")
 					(unit 1)
 				)
 			)
