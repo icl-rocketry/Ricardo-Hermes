@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,9.0.1*%
-%TF.CreationDate,2025-04-25T18:03:20+03:00*%
+%TF.CreationDate,2025-04-25T18:34:11+03:00*%
 %TF.ProjectId,Ricardo-Hermes,52696361-7264-46f2-9d48-65726d65732e,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Legend,Bot*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 9.0.1) date 2025-04-25 18:03:20*
+G04 Created by KiCad (PCBNEW 9.0.1) date 2025-04-25 18:34:11*
 %MOMM*%
 %LPD*%
 G01*
@@ -20411,7 +20411,7 @@ X128068000Y-108497000D03*
 X128068000Y-104297000D03*
 %TD*%
 D15*
-%TO.C,POWER_UART1*%
+%TO.C,3v3*%
 X130095800Y-118504600D03*
 %TD*%
 D16*
