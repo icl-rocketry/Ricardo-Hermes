@@ -28857,88 +28857,6 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Ky:Square_Of_Knowledge_QRCODE"
-		(layer "F.Cu")
-		(uuid "d40ed9c7-33e2-486f-ab1b-6208d961dcdb")
-		(at 140.3828 122.5178)
-		(property "Reference" "REF**"
-			(at 0.8636 1.7272 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "d3e1d544-f505-4b4c-a0cc-4bc725a5f577")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Value" "Square of knowledge"
-			(at 0 8.4 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "7f003836-53fb-40fe-b744-b80278a701fb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c851b9ec-abbb-4c04-8443-b32628709fd9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e87a5a75-2581-4597-8503-737d2d933395")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr smd)
-		(fp_poly
-			(pts
-				(xy -5 -5) (xy 5 -5) (xy 5 5) (xy -5 5)
-			)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill yes)
-			(layer "B.SilkS")
-			(uuid "9cccfade-ca46-4d46-a0b4-cf5b6ec8d74c")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 10.2 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "c393896b-3c6a-426f-91d7-bb3a3a8799fe")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "df48ef17-e74d-464f-b9bf-f0e1de8d6e5d")
@@ -41743,6 +41661,93 @@
 			(fill yes)
 			(layer "B.SilkS")
 			(uuid "f526f2c1-ddc1-4162-be62-64261e53877c")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Ky:Square_Of_Knowledge_QRCODE"
+		(layer "B.Cu")
+		(uuid "d40ed9c7-33e2-486f-ab1b-6208d961dcdb")
+		(at 135.379 130.2902 180)
+		(property "Reference" "REF**"
+			(at 0.8636 -1.7272 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "d3e1d544-f505-4b4c-a0cc-4bc725a5f577")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "Square of knowledge"
+			(at 0 -8.4 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(uuid "7f003836-53fb-40fe-b744-b80278a701fb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c851b9ec-abbb-4c04-8443-b32628709fd9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e87a5a75-2581-4597-8503-737d2d933395")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr smd)
+		(fp_poly
+			(pts
+				(xy -2.5 2.5) (xy 2.5 2.5) (xy 2.5 -2.5) (xy -2.5 -2.5)
+			)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "567202cb-9706-4732-83ab-61bae292e7b9")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -10.2 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(uuid "c393896b-3c6a-426f-91d7-bb3a3a8799fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
 		)
 		(embedded_fonts no)
 	)
