@@ -1,0 +1,25 @@
+[submodule "components/libriccore"]
+	path = components/libriccore
+	url = git@github.com:icl-rocketry/libriccore.git
+[submodule "components/librnp"]
+	path = components/librnp
+	url = git@github.com:icl-rocketry/librnp.git
+[submodule "components/arduino"]
+	path = components/arduino
+	url = https://github.com/espressif/arduino-esp32.git
+[submodule "components/librrc"]
+	path = components/librrc
+	url = git@github.com:icl-rocketry/librrc.git
+[submodule "components/ArduinoJson"]
+	path = components/ArduinoJson
+	url = https://github.com/bblanchon/ArduinoJson.git
+[submodule "lib/SdFat"]
+	path = lib/SdFat
+	url = https://github.com/icl-rocketry/SdFat.git
+	branch = bug-fix
+[submodule "RadioLib"]
+	path = RadioLib
+	url = https://github.com/jgromes/RadioLib.git
+[submodule "components/RadioLib"]
+	path = components/RadioLib
+	url = https://github.com/jgromes/RadioLib.git
